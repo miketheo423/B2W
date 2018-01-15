@@ -88,6 +88,24 @@ img {
   background: #db4b39;
 }
 
+blockquote {
+  padding: 0;
+  border: none;
+  font-style: italic;
+  text-align: left;
+}
+
+blockquote cite {
+  display: block;
+  color: #777;
+  margin: 15px 0 0 0;
+  font-style: normal;
+}
+
+/* Styles an empty invisible element before the block quote */
+blockquote:before {
+  display: none;
+}
 
 /* == HERO == */
 #hero {
@@ -241,6 +259,20 @@ section h3 {
   display: block;
   font-size: 20px;
   font-weight: normal;
+}
+
+#kudos {
+  text-align: center;
+}
+
+.testimonial {
+  margin-bottom: 60px;
+}
+
+.testimonial img {
+  -webkit-border-radus: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
 }
 /* ====== Custom Icon Sprites ======  */
 
